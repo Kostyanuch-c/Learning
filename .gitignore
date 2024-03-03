@@ -3,3 +3,5 @@
 dist/
 *pycache*
 .coverage
+coverage.xml
+*.pyc
