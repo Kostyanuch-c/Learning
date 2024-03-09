@@ -52,20 +52,7 @@ def set_query_param(data, key, value):
 
 
 def to_string(data):
-    scheme = get_scheme(data)
-    path = get_path(data)
-    host = get_host(data)
-    query = data.query
-    fragment = data.fragment
-    lst_url = [scheme, host, path, query, fragment, '']
-    result = ''
-    for elem in urlunparse(lst_url):
-        if elem == ';':
-            elem = '?'
-            result += elem
-        else:
-            result += elem
-    return result
+    return urlunparse(data)
 
 
 u = make('http://hexlet.io/404?page=5')
