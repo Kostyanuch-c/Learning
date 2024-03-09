@@ -6,3 +6,4 @@ dist/
 coverage.xml
 *.pyc
 education/algoritms
+education/trials
