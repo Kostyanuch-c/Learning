@@ -109,6 +109,17 @@ pycodestyle = ">=2.11.0,<2.12.0"
 pyflakes = ">=3.2.0,<3.3.0"
 
 [[package]]
+name = "hexlet-immutable-fs-trees"
+version = "0.1.8"
+description = "File System Tree"
+optional = false
+python-versions = ">=3.6,<4.0"
+files = [
+    {file = "hexlet-immutable-fs-trees-0.1.8.tar.gz", hash = "sha256:250159064cf2ce3e7da4a8dbe8527ccdef1ebd63c9a6f9e66606736d4dc40dc0"},
+    {file = "hexlet_immutable_fs_trees-0.1.8-py3-none-any.whl", hash = "sha256:3a4d8afc2c2d17406c0f036fd9ffe200a4c0099bad74acfca74682169d4ca1d7"},
+]
+
+[[package]]
 name = "iniconfig"
 version = "2.0.0"
 description = "brain-dead simple config-ini parsing"
@@ -232,4 +243,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "49c5f2a5246cb372c9b56517fdf8deef698fafad9803b3075d5a901069911c99"
+content-hash = "0b5452f634623f334fcafad42e17b87bab659c99f0113845814c23af19dc6133"
