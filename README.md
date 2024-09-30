@@ -1,5 +1,11 @@
-[![hello-world](https://github.com/Kostyanuch-c/Hexlet_pytest/actions/workflows/hello.yml/badge.svg)](https://github.com/Kostyanuch-c/Hexlet_pytest/actions/workflows/hello.yml)
-[![Maintainability](https://api.codeclimate.com/v1/badges/9dbffea55545533ba145/maintainability)](https://codeclimate.com/github/Kostyanuch-c/Hexlet_pytest/maintainability)
-[![Python CI](https://github.com/Kostyanuch-c/Hexlet_pytest/actions/workflows/pyci.yml/badge.svg)](https://github.com/Kostyanuch-c/Hexlet_pytest/actions/workflows/pyci.yml)
+Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Sergey
+==============================================================================================================================
 
-Project for education
+QA Engineer
+-----------
+
+I'm a junior software quality specialist with experience working in the banking industry. I would love to join a team of like-minded individuals to contribute to the development and testing process. 
+You can check my CV [here](https://cv.hexlet.io/ru/resumes/4015)
+
+*   🌍  I'm based in Russia, Samara
+*   ✉️  You can contact me at [serejadawydow@yandex.ru](mailto:serejadawydow@yandex.ru ) or [Telegram](https://t.me/theonesergdav)
