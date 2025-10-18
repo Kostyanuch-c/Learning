@@ -1,6 +1,6 @@
 .PHONY: install
 install:
-	@poetry install
+	@poetry install --no-root
 
 .PHONY: lint
 lint:
