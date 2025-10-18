@@ -1,4 +1,4 @@
-def shaker_sort(lst: list[int]) -> list[int]:
+def shaker_sort(lst: list[int]) -> list[int]: # noqa
     for j in range(len(lst)):
         flag = None
         for i in range(len(lst) - 1 - j):
@@ -14,6 +14,7 @@ def shaker_sort(lst: list[int]) -> list[int]:
         if not flag:
             break
     return lst
+
 
 #
 # def shaker_sort(lst: list[int]) -> list[int]:
@@ -43,6 +44,7 @@ def shaker_sort(lst: list[int]) -> list[int]:
 #             break
 #
 #     return lst
+
 
 if __name__ == '__main__':
     lst = [2, 4, 5, 1, 5, 3, 6, 3, 6789, 9, 7, 776, 5, 44, 32, ]

@@ -1,5 +1,0 @@
-{
-  "extend": "development",
-  "host": "dev.server",
-  "password": "admin"
-}

@@ -1,4 +1,6 @@
-def binary_search_recursively(lst: list, val: int, left: int = 0, right: int = None) -> int:
+def binary_search_recursively(
+        lst: list, val: int, left: int = 0, right: int = None
+) -> int:
     if right is None:
         right = len(lst) - 1
 
@@ -11,9 +13,13 @@ def binary_search_recursively(lst: list, val: int, left: int = 0, right: int = N
         return middle
 
     if lst[middle] < val:
-        return binary_search_recursively(lst=lst, val=val, left=middle + 1, right=right)
+        return binary_search_recursively(
+            lst=lst, val=val, left=middle + 1, right=right
+        )
 
-    return binary_search_recursively(lst=lst, val=val, left=left, right=middle - 1)
+    return binary_search_recursively(
+        lst=lst, val=val, left=left, right=middle - 1
+    )
 
 
 if __name__ == '__main__':
