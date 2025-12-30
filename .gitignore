@@ -5,4 +5,4 @@ dist/
 .coverage
 coverage.xml
 *.pyc
-/sandbox
+node_modules/
